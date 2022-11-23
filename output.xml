@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.8 on darwin)" generated="20221120 22:16:19.868" rpa="false" schemaversion="3">
+<suite id="s1" name="TC1" source="/Users/test/PycharmProjects/pythonProject/TestCases/TC1.robot">
+<test id="s1-t1" name="LoginTest" line="7">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://pdexternal.cheetahnetworks-pulseview.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221120 22:16:20.110" level="INFO">Opening browser 'chrome' to base url 'https://pdexternal.cheetahnetworks-pulseview.com/'.</msg>
+<msg timestamp="20221120 22:16:25.670" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20221120 22:16:25.670" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=107.0.5304.110)
+Stacktrace:
+0   chromedriver                        0x00000001064da2c8 chromedriver + 4752072
+1   chromedriver                        0x000000010645a463 chromedriver + 4228195
+2   chromedriver                        0x00000001060bdb18 chromedriver + 441112
+3   chromedriver                        0x00000001060b5c8e chromedriver + 408718
+4   chromedriver                        0x00000001060a886d chromedriver + 354413
+5   chromedriver                        0x00000001060a9b41 chromedriver + 359233
+6   chromedriver                        0x00000001060a8b9c chromedriver + 355228
+7   chromedriver                        0x00000001060a7e51 chromedriver + 351825
+8   chromedriver                        0x00000001060a7ca2 chromedriver + 351394
+9   chromedriver                        0x00000001060a6b0d chromedriver + 346893
+10  chromedriver                        0x00000001060a6ec2 chromedriver + 347842
+11  chromedriver                        0x00000001060bf9e2 chromedriver + 448994
+12  chromedriver                        0x000000010613496f chromedriver + 928111
+13  chromedriver                        0x000000010611bd02 chromedriver + 826626
+14  chromedriver                        0x0000000106134134 chromedriver + 926004
+15  chromedriver                        0x000000010611bb33 chromedriver + 826163
+16  chromedriver                        0x00000001060ec9fd chromedriver + 633341
+17  chromedriver                        0x00000001060ee051 chromedriver + 639057
+18  chromedriver                        0x00000001064a730e chromedriver + 4543246
+19  chromedriver                        0x00000001064aba88 chromedriver + 4561544
+20  chromedriver                        0x00000001064b36df chromedriver + 4593375
+21  chromedriver                        0x00000001064ac8fa chromedriver + 4565242
+22  chromedriver                        0x00000001064822cf chromedriver + 4391631
+23  chromedriver                        0x00000001064cb5b8 chromedriver + 4691384
+24  chromedriver                        0x00000001064cb739 chromedriver + 4691769
+25  chromedriver                        0x00000001064e181e chromedriver + 4782110
+26  libsystem_pthread.dylib             0x00007ff8007464e1 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff800741f6b thread_start + 15
+</msg>
+<status status="FAIL" starttime="20221120 22:16:20.109" endtime="20221120 22:16:25.675"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20221120 22:16:25.676" endtime="20221120 22:16:25.676"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:id_username</arg>
+<arg>Cambrian</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221120 22:16:25.676" endtime="20221120 22:16:25.676"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:id_password</arg>
+<arg>MNGTwdf386</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221120 22:16:25.677" endtime="20221120 22:16:25.677"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="loginForm"]/input[4]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221120 22:16:25.677" endtime="20221120 22:16:25.677"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Cheetah Networks</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="NOT RUN" starttime="20221120 22:16:25.677" endtime="20221120 22:16:25.677"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20221120 22:16:25.678" endtime="20221120 22:16:25.678"/>
+</kw>
+<status status="FAIL" starttime="20221120 22:16:20.108" endtime="20221120 22:16:25.678">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=107.0.5304.110)
+Stacktrace:
+0   chromedriver                        0x00000001064da2c8 chromedriver + 4752072
+1   chromedriver                        0x000000010645a463 chromedriver + 4228195
+2   chromedriver                        0x00000001060bdb18 chromedriver + 441112
+3   chromedriver                        0x00000001060b5c8e chromedriver + 408718
+4   chromedriver                        0x00000001060a886d chromedriver + 354413
+5   chromedriver                        0x00000001060a9b41 chromedriver + 359233
+6   chromedriver                        0x00000001060a8b9c chromedriver + 355228
+7   chromedriver                        0x00000001060a7e51 chromedriver + 351825
+8   chromedriver                        0x00000001060a7ca2 chromedriver + 3...
+    [ Message content over the limit has been removed. ]
+...hromedriver                        0x00000001060ee051 chromedriver + 639057
+18  chromedriver                        0x00000001064a730e chromedriver + 4543246
+19  chromedriver                        0x00000001064aba88 chromedriver + 4561544
+20  chromedriver                        0x00000001064b36df chromedriver + 4593375
+21  chromedriver                        0x00000001064ac8fa chromedriver + 4565242
+22  chromedriver                        0x00000001064822cf chromedriver + 4391631
+23  chromedriver                        0x00000001064cb5b8 chromedriver + 4691384
+24  chromedriver                        0x00000001064cb739 chromedriver + 4691769
+25  chromedriver                        0x00000001064e181e chromedriver + 4782110
+26  libsystem_pthread.dylib             0x00007ff8007464e1 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff800741f6b thread_start + 15</status>
+</test>
+<status status="FAIL" starttime="20221120 22:16:19.869" endtime="20221120 22:16:25.684"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
