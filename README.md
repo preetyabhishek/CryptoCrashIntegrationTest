@@ -9,5 +9,5 @@ Shivam Sharma: A00253431
 Using Robot framework to do integration test for our cryptocrash website 
 
 
-# Setup Instructions:
+# Setup Instructions to run integration tests:
 Google doc: https://docs.google.com/document/d/1WFfWSTn97AEensVd7pZpEdSkBE78yYuaqR4wT5i9kmo/edit?usp=sharing
