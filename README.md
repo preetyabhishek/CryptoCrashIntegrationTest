@@ -1,4 +1,4 @@
-# CryptoCrashIntegrationTest
+# CryptoCrash Integration Tests
 
 Athif Ahamed Mohamed Shaffy: A00256229
 
